@@ -29,6 +29,17 @@ body {
     justify-content: center;
     backdrop-filter: var(#0aad92b6);
 }
+.container2 {
+    background-color: #e6ebe55e;
+    height: 500px;
+    width: 490px;
+    border-radius: 20px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: var(#0aad92b6);
+}
 .content {
     background-color: #0aad92b6;
     width: 450px;
@@ -149,6 +160,73 @@ body {
 }
 .input .lien2:hover {
     background-color: #0bec29c2;
+}
+
+/* **********************************************
+            RESPONSIVE
+**************************/
+
+@media(max-width: 678px){ 
+    .container {
+        height: 590px;
+        width: 390px;
+    }
+    .content {
+        width: 350px;
+        height: 510px;
+    }
+    .container2 {
+        height: 450px;
+        width: 390px;
+    }
+    .content2 {
+        width: 350px;
+        height: 400px;
+    }
+      .content img {
+        width: 95px;
+        height: 95px;
+        transform: translateX(8rem);
+    }
+     .content2 img {
+        width: 95px;
+        height: 95px;
+        transform: translateX(8rem);
+    }
+    .content2 img {
+        width: 95px;
+        height: 95px;
+    }
+    .input input {
+        margin-bottom: 8px;
+        width: 18rem;
+        padding: 9px;
+        border-radius: 8px;
+    }
+      .input2 input {
+        margin-bottom: 8px;
+        width: 18rem;
+        padding: 9px;
+        border-radius: 8px;
+        margin-left: 20px;
+    }
+
+    .content h1 {
+        font-size: 28px;
+    }
+     .content2 h1 {
+        font-size: 28px;
+    }
+    .content p {
+        font-size: 15px;
+    }
+      .content2 p {
+        font-size: 15px;
+    }
+    .div h1 {
+       font-size: 28px;
+       text-align: center;
+    }
 }
 
 
